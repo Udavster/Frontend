@@ -1,0 +1,132 @@
+*{
+    box-sizing: border-box;
+}
+html, body{
+     width: 100%;
+     height: 100%;
+     margin: 0;
+}
+body{
+    background-color: #fff7e9;
+}
+
+header{
+    display: flex;
+    justify-content: flex-start;
+    height: 70px;
+    width: 100%;
+    padding: 0 30px 0 30px;
+    background-color: #fffdfb;
+    /*border: 3px solid #ede5d8;*/
+    box-shadow: 100px 2px 10px #eae3d5;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+.header-logo-image{
+    width: 273px;
+    height: 102px;
+    background-image: url("../img/logo.png");
+    background-size: cover;
+    background-repeat: none;
+}
+.header-logo-image a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+input[type="text"]{
+    display: none;
+}
+.header-menu{
+    width: 240px;
+    margin-left: 30px;
+    padding: 0;
+}
+.header-menu li{
+    width: 80px;
+    height: 100%;
+    line-height: 70px;
+}
+.header-menu li a{
+    color: #d44e02;
+}
+li.header-menu-active a{
+    font-weight: bold;
+    color: black;
+}
+
+ul.horisontal-menu{
+    list-style-type: none;
+    margin: 0;
+}
+ul.horisontal-menu li{
+    float: left;
+}
+ul.horisontal-menu li a{
+    text-decoration: none;
+}
+
+.filter-menu{
+    margin: 50px 80px 0 105px;
+    text-align: center;
+}
+.filter-menu:before,
+.filter-menu:after {
+    content:"";
+    display:table;
+}
+.filter-menu:after {
+    clear:both;
+}
+.filter-menu-name{
+    font-size: 24px;
+    text-align: center;
+}
+.filter-menu-options{
+    height: 20px;
+}
+ul.filter-menu-options li{
+    float: right;
+}
+
+main{
+    width: 100%;
+    padding: 0 30px 0 30px;
+}
+.food_type-types{
+    display: flex;
+    justify-content: space-between;
+}
+.food_type-type{
+    width: 312px;
+    height: 340px;
+    padding: 0 30px 0 30px;
+    border-radius: 12px;
+    background-color: white;
+}
+.food_type-type_name{
+    width: 185px;
+}
+.food_type-type_image{
+    width: 100%;
+    height: 164px;
+}
+.food_type-type_price{
+    font-weight: bold;
+}
+
+footer{
+    position: absolute;
+    bottom: calc(-110px - 70px); /*70px from the last element, like margin*/ 
+    width: 100%;
+    height: 110px;
+    background-color: #4b4b4b;
+    border-top: 10px solid #f2892b;
+}
+.footer-copyright{
+    color: white;
+    text-align: center;
+}
