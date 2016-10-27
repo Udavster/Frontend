@@ -1,0 +1,169 @@
+*{
+    box-sizing: border-box;
+}
+body, html{
+    /*background-color: black;*/
+    min-width: 900px;
+    min-height: 540px;
+}
+.office_plan{
+    position: relative;
+    width: 900px;
+    height: 540px;
+    top: calc((100% - 540px) / 2);
+    left: calc((100% - 900px) / 2);
+    background-image: url('../images/map2.png');
+}
+.room-office_plan{
+    position: absolute;
+}
+.oval_room-office_plan{
+    background-image: url('../images/r-311-30.png');
+    width: 205px;
+    height: 205px;
+    left: 38px;
+    top: 316px;
+}
+.oval_room-office_plan:hover{
+    background-image: url('../images/r-311-active.png');
+}
+.r301-office_plan{
+    background-image: url('../images/r-301-30.png');
+    width: 140px;
+    height: 120px;
+    top: 211px;
+    left: 650px;
+}
+.r301-office_plan:hover{
+    background-image: url('../images/r-301-active.png');
+}
+.r302-office_plan{
+    background-image: url('../images/r-302-30.png');
+    width: 50px;
+    height: 120px;
+    top: 211px;
+    left: 598px;
+}
+.r302-office_plan:hover{
+    background-image: url('../images/r-302-active.png');
+}
+.r303-office_plan{
+    background-image: url('../images/r-303-30.png');
+    width: 53px;
+    height: 119px;
+    top: 211px;
+    left: 381px;
+}
+.r303-office_plan:hover{
+    background-image: url('../images/r-303-active.png');
+}
+.r304-office_plan{
+    background-image: url('../images/r-304-70.png');
+    width: 152px;
+    height: 90px;
+    top: 247px;
+    left: 223px;
+}
+.r304-office_plan:hover{
+    background-image: url('../images/r-304-active.png');
+}
+.r305-office_plan{
+    background-image: url('../images/r-305-70.png');
+    width: 118px;
+    height: 62px;
+    top: 105px;
+    left: 223px;
+}
+.r305-office_plan:hover{
+    background-image: url('../images/r-305-active.png');
+}
+.r306-office_plan{
+    background-image: url('../images/r-306-70.png');
+    width: 86px;
+    height: 62px;
+    top: 37px;
+    left: 255px;
+}
+.r306-office_plan:hover{
+    background-image: url('../images/r-306-active.png');
+}
+.r307-office_plan{
+    background-image: url('../images/r-307-70.png');
+    width: 113px;
+    height: 74px;
+    top: 37px;
+    left: 49px;
+}
+.r307-office_plan:hover{
+    background-image: url('../images/r-307-active.png');
+}
+.r308-office_plan{
+    background-image: url('../images/r-308-70.png');
+    width: 113px;
+    height: 44px;
+    top: 122px;
+    left: 49px;
+}
+.r308-office_plan:hover{
+    background-image: url('../images/r-308-active.png');
+}
+.r309-office_plan{
+    background-image: url('../images/r-309-70.png');
+    width: 113px;
+    height: 49px;
+    top: 172px;
+    left: 49px;
+}
+.r309-office_plan:hover{
+    background-image: url('../images/r-309-active.png');
+}
+.r310-office_plan{
+    background-image: url('../images/r-310-70.png');
+    width: 113px;
+    height: 80px;
+    top: 229px;
+    left: 49px;
+}
+.r310-office_plan:hover{
+    background-image: url('../images/r-310-active.png');
+}
+.r312-office_plan{
+    background-image: url('../images/r-312-70.png');
+    width: 192px;
+    height: 115px;
+    top: 396px;
+    left: 248px;
+}
+.r312-office_plan:hover{
+    background-image: url('../images/r-312-active.png');
+}
+.r313-office_plan{
+    background-image: url('../images/r-313-70.png');
+    width: 135px;
+    height: 115px;
+    top: 396px;
+    left: 452px;
+}
+.r313-office_plan:hover{
+    background-image: url('../images/r-313-active.png');
+}
+.r314-office_plan{
+    background-image: url('../images/r-314-70.png');
+    width: 189px;
+    height: 115px;
+    top: 396px;
+    left: 600px;
+}
+.r314-office_plan:hover{
+    background-image: url('../images/r-314-active.png');
+}
+.r315-office_plan{
+    background-image: url('../images/r-315-70.png');
+    width: 57px;
+    height: 39px;
+    top: 396px;
+    left: 801px;
+}
+.r315-office_plan:hover{
+    background-image: url('../images/r-315-active.png');
+}
